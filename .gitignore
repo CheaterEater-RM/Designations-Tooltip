@@ -19,7 +19,6 @@ RimWorld.Paths.props
 [Rr]elease/
 *.pdb
 
-
 # Debug symbols that land in the output folder
 1.6/Assemblies/*.pdb
 
@@ -48,4 +47,22 @@ build_restore.log
 build_restore_err.log
 *.binlog
 
+# RimWorld / Harmony debug logs
+harmony.log.txt
+Player.log
+
+# Editor workspace files
+*.code-workspace
+
+# Claude / agent scratch
 .claude/
+
+# .github / normally just copilot instructions, not used much anymore.
+.github/
+
+# Agent instruction files
+CLAUDE.md
+AGENTS.md
+
+# research and design docs
+docs/

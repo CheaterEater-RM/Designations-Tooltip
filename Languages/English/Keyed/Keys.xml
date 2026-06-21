@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <DesignationsTooltip.SettingsCategory>Designations Tooltip</DesignationsTooltip.SettingsCategory>
+
+  <DesignationsTooltip.ClassicMode>Classic mode (show affected count only)</DesignationsTooltip.ClassicMode>
+  <DesignationsTooltip.ClassicMode.Tooltip>Show only the number of cells that will actually be designated (for example "8"), instead of the "affected / total" format (for example "8 / 100").</DesignationsTooltip.ClassicMode.Tooltip>
+
+  <DesignationsTooltip.AlwaysShowSmall>Always show count on small drags</DesignationsTooltip.AlwaysShowSmall>
+  <DesignationsTooltip.AlwaysShowSmall.Tooltip>Show the center count even for small designations that the base game normally hides (drags smaller than 3x3). The count is still hidden when nothing would be designated.</DesignationsTooltip.AlwaysShowSmall.Tooltip>
+
+</LanguageData>
