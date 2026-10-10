@@ -16,9 +16,9 @@
     <OutputPath>..\1.6\Assemblies\</OutputPath>
     <EnableDefaultCompileItems>true</EnableDefaultCompileItems>
     <LangVersion>latest</LangVersion>
-    <Platforms>AnyCPU</Platforms>
-    <Configurations>Release;Debug</Configurations>
     <!-- Ship a Release-only assembly: no debug symbols, no .pdb, in any configuration. -->
+    <Platforms>AnyCPU</Platforms>
+    <Configurations>Debug;Release</Configurations>
     <Configuration Condition="'$(Configuration)' == ''">Release</Configuration>
     <DebugType>none</DebugType>
     <DebugSymbols>false</DebugSymbols>
